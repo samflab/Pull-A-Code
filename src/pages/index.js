@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Code from '../components/syntax'
-import GitHubButton from 'react-github-btn'
 
 const IndexPage = () => (
   <div>
@@ -11,9 +10,7 @@ const IndexPage = () => (
     section of this page. For this exercise you'll be adding a new entry to the source code of this website with your profile details. 
       Excited? <i className="em em-grinning_face_with_star_eyes"></i> let's begin!
     </p>
-  <!-- Place this tag where you want the button to render. -->
-<GitHubButton href="https://github.com/aggarwalpulkit596/Pull-A-Code" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star aggarwalpulkit596/Pull-A-Code on GitHub">Star</GitHubButton>
-    <h3>Step 1</h3>
+     <h3>Step 1</h3>
     <p>
       Goto the <a target="_blank" href="https://github.com/aggarwalpulkit596/Pull-A-Code"> GitHub repository </a> of this project and fork the project to your account. <i className="em em-knife_fork_plate"></i>  
        Click on the fork button on the top right corner of the repository page to do it. Once done, GitHub will take you to the forked copy in your account.
